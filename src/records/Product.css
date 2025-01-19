@@ -1,0 +1,191 @@
+select{
+    padding: 0.5rem;
+    margin-left: auto;
+    width: fit-content;
+}
+
+.filter_icon{
+    color: #00AEEF;
+    font-size: 1.5rem;
+    margin-left: 0.2rem;
+}
+
+.product_image{
+    width: 10.5rem;
+    height: 8rem;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    animation: opacity 1s ease-in-out;
+}
+
+@keyframes opacity {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.product_name *{
+    display: inline;
+}
+
+
+.product_list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    gap:1.5rem;
+    padding-bottom: 1rem;
+}
+
+.product_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    border:0.1rem solid #f0f2f1;
+    width: 10.5rem;
+
+}
+
+
+/* Button Styles */
+.ripple-button {
+    width: 5rem;
+    position: relative;
+    overflow: hidden;
+    background-color: #EEFAFF;
+    color: #00AEEF;
+    padding: 0.3rem 0.8rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ripple-button:hover {
+    background-color: #00AEEF;
+  }
+  
+  .ripple-button:focus {
+    outline: none;
+  }
+  
+  /* Ripple Effect */
+  .ripple-button::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: width 0.4s ease, height 0.4s ease, opacity 0.4s ease;
+  }
+  
+  .ripple-button:active::after {
+    width: 13rem; /* Large enough to cover the button */
+    height: 13rem;
+    opacity: 1;
+    transition: 0s;
+  }
+  
+  /* Cart Icon Animation */
+  .cart-icon {
+    margin-top: 0.25rem;
+    margin-left: 0.3rem;
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .ripple-button:active .cart-icon {
+    animation: moveCart 4s ease-in-out;
+  }
+
+  @keyframes moveCart {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(2rem);
+        opacity: 0.5;
+        
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+  }
+
+
+.product_box section{
+    padding: 0.5rem;
+}
+
+.product_box section *{
+    margin-bottom: 0.4rem;
+}
+
+.product_price{
+   color: #022836;
+   font-weight: 600;
+}
+
+
+/* ==================filter============================= */
+
+
+.filer_content{
+    background-color: #EEFAFF;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: #022836;
+}
+
+.filer_content button{
+    background-color: white;
+    border: 0.1rem solid #f0f2f1;
+    padding: 0.3rem 0.9rem;
+    color: #00AEEF;
+    border-radius: 0.5rem;
+}
+
+.button_flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap:0.5rem;
+}
+
+.confirm_btn{
+    background-color: #00AEEF !important;
+    color: #EEFAFF !important;
+    border: none !important;
+
+}
+
+.filer_content label{
+    display: block;
+}
+
+.filer_content section{
+    margin: 1rem 0rem;
+}
+
+.product_box:hover{
+    transform: scale(1.1); 
+}

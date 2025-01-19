@@ -1,0 +1,221 @@
+[
+    {
+        "id": 1,
+        "name":"Shoe",
+        "gender": "unisex",
+        "brand": "different",
+        "price": "400",
+        "imageUrl": "https://images.pexels.com/photos/19090/pexels-photo.jpg",
+        "stock": "10",
+        "rating": "4",
+        "color":"blue"
+    },
+    {
+        "id": 2,
+        "name": "Shoe",
+        "gender": "male",
+        "brand": "different",
+        "price": "380",
+        "imageUrl": "https://images.pexels.com/photos/1447262/pexels-photo-1447262.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "stock": "2",
+        "rating": "4.2",
+        "color":"blue"
+    },
+    {
+        "id": 3,
+        "name": "Slipper",
+        "gender": "female",
+        "brand": "different",
+        "price": "280",
+        "imageUrl": "https://images.pexels.com/photos/27204307/pexels-photo-27204307/free-photo-of-the-purple-slide-sandals-are-made-from-leather-and-have-a-black-sole.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "stock": "10",
+        "rating": "4.6",
+        "color":"pink"
+    },
+    {
+        "id": 4,
+        "name": "Shoe",
+        "gender":"unisex",
+        "brand": "Nike",
+        "price": "600",
+        "imageUrl": "https://images.pexels.com/photos/1478442/pexels-photo-1478442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "stock": "4",
+        "rating": "4.8",
+        "color":"black"
+    },
+    {
+        "id": 5,
+        "name": "Shoe",
+        "gender":"unisex",
+        "brand": "Nike",
+        "price": "500",
+        "imageUrl": "https://images.pexels.com/photos/1307128/pexels-photo-1307128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "stock": "6",
+        "rating": "4.6",
+        "color":"red"
+    },
+    {
+        "id": 6,
+        "name": "Shoe",
+        "gender":"male",
+        "brand": "Adidas",
+        "price": "560",
+        "imageUrl": "https://images.pexels.com/photos/812871/pexels-photo-812871.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "stock": "6",
+        "rating": "4.8",
+        "color":"black"
+    },
+    {
+        "id": 7,
+        "name": "Slipper",
+        "gender":"unisex",
+        "brand": "different",
+        "price": "200",
+        "imageUrl": "https://images.pexels.com/photos/4996733/pexels-photo-4996733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "stock": "10",
+        "rating": "3.8",
+        "color":"yellow"
+    },
+    {
+        "id": 8,
+        "name": "Slipper",
+        "gender":"female",
+        "brand": "different",
+        "price": "300",
+        "imageUrl": "https://images.pexels.com/photos/6976560/pexels-photo-6976560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "stock": "9",
+        "rating": "4.3",
+        "color":"white"
+    },
+    {
+        "id": 9,
+        "name": "Slipper",
+        "gender":"male",
+        "brand": "different",
+        "price": "270",
+        "imageUrl": "https://images.pexels.com/photos/14187813/pexels-photo-14187813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "stock": "3",
+        "rating": "5",
+        "color":"red"
+    },
+    {
+        "id": 10,
+        "name": "Slipper",
+        "gender":"male",
+        "brand": "Crocs",
+        "price": "600",
+        "imageUrl": "https://images.pexels.com/photos/10410066/pexels-photo-10410066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "stock": "6",
+        "rating": "4.9",
+        "color":"blue"
+    },
+    {
+        "id": 11,
+        "name": "Slipper",
+        "brand": "Crocs",
+        "price": "500",
+        "imageUrl": "https://images.pexels.com/photos/18188546/pexels-photo-18188546/free-photo-of-crocs-flip-flops-on-grass.jpeg",
+        "stock": "2",
+        "rating": "4.9",
+        "color":"black"
+    },
+    {
+        "id": 12,
+        "name": "Shoe",
+        "gender":"male",
+        "brand": "Puma",
+        "price": "600",
+        "imageUrl": "https://images.pexels.com/photos/6719187/pexels-photo-6719187.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "stock": "5",
+        "rating": "5",
+        "color":"white"
+    },
+    {
+        "id": 13,
+        "name": "Shoe",
+        "gender":"male",
+        "brand": "Puma",
+        "price": "400",
+        "imageUrl": "https://images.pexels.com/photos/18202569/pexels-photo-18202569/free-photo-of-white-Puma-Shoe.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "stock": "3",
+        "rating": "4",
+        "color":"white"
+    },
+    {
+        "id": 14,
+        "name": "Boots",
+        "gender":"female",
+        "brand": "different",
+        "price": "700",
+        "imageUrl": "https://images.pexels.com/photos/1159670/pexels-photo-1159670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "stock": "3",
+        "rating": "4.7",
+        "color":"yellow"
+    },
+    {
+        "id": 15,
+        "name": "Heels",
+        "gender":"female",
+        "brand": "different",
+        "price": "470",
+        "imageUrl": "https://images.pexels.com/photos/2965276/pexels-photo-2965276.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "stock": "1",
+        "rating": "3.9",
+        "color":"white"
+    },
+    {
+        "id": 16,
+        "name": "Shoe",
+        "gender":"male",
+        "brand": "different",
+        "price": "500",
+        "imageUrl": "https://images.pexels.com/photos/292999/pexels-photo-292999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "stock": "6",
+        "rating": "5",
+        "color":"black"
+    },
+    {
+        "id": 17,
+        "name": "Heels",
+        "gender":"female",
+        "brand": "different",
+        "price": "780",
+        "imageUrl": "https://images.pexels.com/photos/336372/pexels-photo-336372.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "stock": "4",
+        "rating": "4.4",
+        "color":"red"
+    },
+    {
+        "id": 18,
+        "name": "Shoe",
+        "gender":"unisex",
+        "brand": "different",
+        "price": "300",
+        "imageUrl": "https://images.pexels.com/photos/1598508/pexels-photo-1598508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "stock": "7",
+        "rating": "4.8",
+        "color":"yellow"
+    },
+    {
+        "id": 19,
+        "name": "Shoe",
+        "gender":"male",
+        "brand": "Nike",
+        "price": "380",
+        "imageUrl": "https://images.pexels.com/photos/17930823/pexels-photo-17930823/free-photo-of-close-up-of-blue-Shoes.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "stock": "8",
+        "rating": "4.6",
+        "color":"blue"
+    },
+    {
+        "id": 20,
+        "name": "Slipper",
+        "gender":"female",
+        "brand": "different",
+        "price": "455",
+        "imageUrl": "https://images.pexels.com/photos/26965817/pexels-photo-26965817/free-photo-of-product-shot-of-brown-leather-sandals.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "stock": "9",
+        "rating": "4.9",
+        "color":"white"
+    }
+]

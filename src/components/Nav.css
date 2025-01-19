@@ -1,0 +1,18 @@
+nav{
+    margin: 1rem 0rem;
+}
+
+.nav_textbox{
+    background-color: #EEFAFF;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+   color: #022836;
+    width: calc(100% - 2rem);
+}
+
+.nav_textbox::placeholder{
+    color: #A7C8D4;
+}
+
+
